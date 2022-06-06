@@ -1,11 +1,5 @@
-@extends('layouts.app')
-
-@section('content')
-<div>
-    <div id="test"></div>
-    <script src="{{ mix('js/app.js') }}"></script>
-</div>
-    {{-- <div class="background-image grid grid-cols-1 m-auto">
+<template>
+    <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-white pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-10">
@@ -32,7 +26,7 @@
                 New technology trends of 2022 :
             </h1>
 
-            <div class="text-xl ">
+            <div class="text-xl pb-10">
                 <ul class="list-disc ml-6">
                     <li class="mt-4">Artificial Intelligence (AI) and Machine Learning.</li>
                     <li>Virtual Reality and Augmented Reality.</li>
@@ -43,11 +37,11 @@
                 </ul>
             </div>
             
-            <div>
+            <!-- <div>
                 <p class="py-4 text-gray-800 text-sm pb-10">
                     More elements ....
                 </p>
-            </div>
+            </div> -->
             
 
             <a
@@ -71,7 +65,7 @@
             Laravel 
         </span>
         <span class="font-extrabold block text-2xl py-1 ">
-            VueJs
+            Vue.js
         </span>
         <span class="font-extrabold block text-2xl py-1 pb-10">
             Tailwindcss
@@ -79,8 +73,8 @@
     </div>
 
     <div class="text-center py-10">
-        <span class="uppercase text-lg text-blue-500">
-            Blog
+        <span class="uppercase text-lg text-blue-500 ">
+            Blog 
         </span>
 
         <h2 class="text-4xl font-bold py-8">
@@ -88,6 +82,7 @@
         </h2>
     </div>
 
+    <!-- dummy data for now -->
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
         <div class="flex bg-blue-400 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
@@ -106,13 +101,17 @@
                 </a>
             </div>
         </div>
+        
         <div>
             <img src="https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_960_720.png" alt="">
         </div>
+    </div>
+</template>
 
-        <div>
-            <div id="test"></div>
-            <script src="{{ mix('js/app.js') }}"></script>
-        </div>
-    </div> --}}
-@endsection
+<script>
+export default {};
+</script>
+
+<style>
+
+</style>

@@ -51,7 +51,6 @@
                 name="image"
                 class="hidden">
             </label>
-
         </div>
 
         <button type="submit"

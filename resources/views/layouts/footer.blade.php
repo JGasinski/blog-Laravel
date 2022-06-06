@@ -36,17 +36,17 @@
             </h3>
             <ul class="py-4 sm:text-s pt-4 text-gray-300">
                 <li class="pb-1 ">
-                    <a href="/">
+                    <a href="/phone">
                         Phone
                     </a>
                 </li>
-                <li class="pb-1 ">
-                    <a href="/">
+                {{-- <li class="pb-1 ">
+                    <a href="/address">
                         Address
                     </a>
-                </li>
+                </li> --}}
                 <li class="pb-1 ">
-                    <a href="/">
+                    <a href="/contact">
                         Contact
                     </a>
                 </li>

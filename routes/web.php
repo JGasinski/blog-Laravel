@@ -19,6 +19,10 @@ Route::get('/', [PageController::class, 'index']);
 
 Route::resource('/blog', PostController::class);
 
+Route::view('/phone', 'phone');
+Route::view('/address', 'address');
+Route::view('/contact', 'contact');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

@@ -1090,6 +1090,10 @@ select {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1209,6 +1213,22 @@ select {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .block {
@@ -1353,6 +1373,18 @@ select {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-3\/6 {
+  width: 50%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
 }
 
 .min-w-0 {
@@ -1942,6 +1974,10 @@ select {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-left {

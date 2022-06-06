@@ -47,7 +47,7 @@
             
 
             <a
-                href="/blog/more"
+                target="_blank" href="//www.simplilearn.com/top-technology-trends-and-jobs-article/"
                 class=" bg-blue-500 text-white text-sm font-bold py-4 px-8 border-double border-4 border-black rounded-md hover:text-gray-900">
                 Find out more
             </a>
@@ -101,7 +101,7 @@
                 </h3>
 
                 <a 
-                    href=""
+                    href="/blog"
                     class=" bg-white text-black text-xs font-bold py-3 px-5 border-double border-4 border-black rounded-md hover:text-blue-400">
                     Find Out More
                 </a>

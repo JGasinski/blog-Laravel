@@ -9,6 +9,18 @@
     </div>
 </div>
 
+@if ($errors->any())
+    <div class="w-4/5 m-auto">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li class="w-1/5 mb-4 text-white bg-red-500 py-4">
+                    {{ $error }}
+                </li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 <div class="w-4/5 m-auto pt-15">
     <form
         action="/blog/"
